@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gnomad2uniprot"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Zeiberg <zeiberg.d@northeastern.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.29.3"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+scipy = "^1.12.0"
+pathlib = "^1.0.1"
+biopython = "^1.83"
+tqdm = "^4.66.2"
+nbconvert = "^7.16.3"
+pandoc = "^2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
